@@ -1,0 +1,4 @@
+(name: CI Pipeline)
+(on: push and pull_request to main branch)
+(jobs: build with ubuntu-latest)
+(steps include: checkout code, setup python, install dependencies, run tests)
